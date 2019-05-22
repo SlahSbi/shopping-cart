@@ -1,0 +1,99 @@
+body{ 
+background-image: linear-gradient(red,red,white, red,red);
+}
+
+.container{ 
+display:flex;
+flex-direction: column;
+align-items: space-around;
+border-radius:6px;
+background-color: white; 
+opacity: 0.9;
+background-repeat: no-repeat;
+background-position: center;
+margin-top:1.5%;  
+
+}
+.titre_store
+{display: flex;
+justify-content: center;
+align-items: center;
+font-size: 40px;
+text-align: center;
+color:red;
+border-bottom: 1px solid #ff0000;
+
+}
+.titre{
+   text-align: center;
+   
+}
+.titre_store img
+{
+   margin-right:15%;
+   margin-left: 15%;
+}
+#prod_1,#prod_2,#prod_3
+{ 
+   display: flex;
+   flex-direction: row; 
+   justify-content: space-around; 
+   align-items: center;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   border-top: 1px solid #ff0000;
+}
+.button
+{ 
+   display: flex;
+  flex-direction: row; 
+}
+.description
+{ 
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+}
+.quantity
+{
+   display: flex;
+   flex-direction: row; 
+   
+}
+
+.btn_quantity
+{
+margin-right:10px;
+margin-top:10px;
+text-align: center;
+}
+img
+{ width:120px;
+  height:120px;
+}
+.delete{
+   margin-right: 20px;
+   color:gray;
+}
+.like
+{
+   color:gray;
+}
+.titre
+{font-size: 25px;
+ padding: 10px;
+ background-image: url(images/ess_store.png);  
+}
+.prod_name
+{font-size: 25px;
+margin-bottom:10px;
+}
+.prod_color
+{font-size: 20px;
+
+}
+
+
+
+
+
