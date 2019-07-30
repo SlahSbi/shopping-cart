@@ -1,96 +1,98 @@
 <!DOCTYPE html>
-   <html>
-       <head>
-           
-           <meta charset="utf-8">
-           <title>shopping cart</title>
-           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-           <link rel="stylesheet" href="style.css">
-           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-          
-       </head>
-       <body>
-          <div class="container">
-              <div class="titre_store">
-                <img   src="images/ess_store.png" alt="">
-                  <span>ESS STORE </span>
-                  <img  src="images/ess_store.png" alt="">
-                </div>
-             <div class="titre">
-               Shopping Bag = <span class="totalStore" id="totalBag">0</span> Dinars 
-             </div>
-             <div id="prod_1">
-                <div class="button">
-                   <i class=" delete fas fa-times" ></i>
-                   <i class="like fas fa-heart" ></i>
-                </div>
-                <div>
-                    <img src="images/prod_1.jpg" alt="">
-                </div>
-                <div class="description">
-                    <span class="prod_name">  Maillot</span>
-                    <span class="prod_color">Rouge</span>
-                </div> 
-                <div class="quantity" id=" quantProd1">
-                    <button class="btn_quantity plus_btn" id="prod1">+</button>
-                    <input class="btn_quantity total_item " type="text" name="btsubmit"  value="1" size=2>
-                    <button class="btn_quantity minus_btn">-</button>      
-                </div> 
-                <div class="total">
-                   <button class="btn_total" id="totalProd1" >70 Dinars</button>  
-                   <p class="price" style="display:none">70</p>
-                </div> 
-             </div>
-             <div id="prod_2">
-                <div class="button">
-                   <i class=" delete fas fa-times"></i>
-                   <i class="like fas fa-heart" ></i>
-                </div>
-                <div>
-                    <img src="images/prod_2.jpg" alt="">
-                </div>
-                <div class="description">
-                    <span class="prod_name">Polo Macron</span>
-                    <span class="prod_color">Noir</span>
-                </div> 
-                <div class="quantity">
-                    <button class="btn_quantity plus_btn" id="prod2">+</button>
-                    <input class="btn_quantity total_item  " type="text" name="btsubmit"  value="1" size=2>
-                    <button class="btn_quantity minus_btn">-</button>      
-                </div> 
-                <div class="total">
-                  <button class="btn_total"id="totalProd2" >60 Dinars</button>
-                  <p class="price" style="display:none">60</p> 
-                </div> 
-             </div>
-             <div id="prod_3">
-                <div class="button">
-                   <i class=" delete fas fa-times"></i>
-                   <i class="like fas fa-heart" ></i>
-                </div>
-                <div>
-                    <img src="images/prod_3.jpg" alt="">
-                </div>
-                <div class="description">
-                    <span class="prod_name">Jogging Enfant</span>
-                    <span class="prod_color">Bleu</span>
-                </div> 
-                <div class="quantity">
-                    <button class="btn_quantity plus_btn" id="prod3" >+</button>
-                    <input class="btn_quantity total_item " type="text" name="btsubmit"  value="1" size=2>
-                    <button class="btn_quantity minus_btn">-</button>      
-                </div> 
-                <div class="total">
-                     <button class="btn_total"id="totalProd3" >55 Dinars</button>
-                     <p class="price" style="display:none">0</p> 
-                </div> 
-             </div>
-             
+<html>
 
-           <script src="cart.js"></script>
-           <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
-           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
-       </body>
+<head>
 
-   </html>
+    <meta charset="utf-8">
+    <title>shopping cart</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="titre_store">
+            <img src="images/ess_store.png" alt="">
+            <span>ESS STORE </span>
+            <img src="images/ess_store.png" alt="">
+        </div>
+        <div class="titre">
+            Shopping Bag = <span class="totalStore" id="totalBag">0</span> Dinars
+        </div>
+        <div id="prod_1">
+            <div class="button">
+                <i class=" delete fas fa-times"></i>
+                <i class="like fas fa-heart"></i>
+            </div>
+            <div>
+                <img src="images/prod_1.jpg" alt="">
+            </div>
+            <div class="description">
+                <span class="prod_name"> Maillot</span>
+                <span class="prod_color">Rouge</span>
+            </div>
+            <div class="quantity" id=" quantProd1">
+                <button class="btn_quantity plus_btn" id="prod1">+</button>
+                <input class="btn_quantity total_item " type="text" name="btsubmit" value="1" size=2>
+                <button class="btn_quantity minus_btn">-</button>
+            </div>
+            <div class="total">
+                <button class="btn_total" id="totalProd1">70 Dinars</button>
+                <p class="price" style="display:none">70</p>
+            </div>
+        </div>
+        <div id="prod_2">
+            <div class="button">
+                <i class=" delete fas fa-times"></i>
+                <i class="like fas fa-heart"></i>
+            </div>
+            <div>
+                <img src="images/prod_2.jpg" alt="">
+            </div>
+            <div class="description">
+                <span class="prod_name">Polo Macron</span>
+                <span class="prod_color">Noir</span>
+            </div>
+            <div class="quantity">
+                <button class="btn_quantity plus_btn" id="prod2">+</button>
+                <input class="btn_quantity total_item  " type="text" name="btsubmit" value="1" size=2>
+                <button class="btn_quantity minus_btn">-</button>
+            </div>
+            <div class="total">
+                <button class="btn_total" id="totalProd2">60 Dinars</button>
+                <p class="price" style="display:none">60</p>
+            </div>
+        </div>
+        <div id="prod_3">
+            <div class="button">
+                <i class=" delete fas fa-times"></i>
+                <i class="like fas fa-heart"></i>
+            </div>
+            <div>
+                <img src="images/prod_3.jpg" alt="">
+            </div>
+            <div class="description">
+                <span class="prod_name">Jogging Enfant</span>
+                <span class="prod_color">Bleu</span>
+            </div>
+            <div class="quantity">
+                <button class="btn_quantity plus_btn" id="prod3">+</button>
+                <input class="btn_quantity total_item " type="text" name="btsubmit" value="1" size=2>
+                <button class="btn_quantity minus_btn">-</button>
+            </div>
+            <div class="total">
+                <button class="btn_total" id="totalProd3">55 Dinars</button>
+                <p class="price" style="display:none">55</p>
+            </div>
+        </div>
+
+
+        <script src="cart.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
