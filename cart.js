@@ -22,14 +22,12 @@ for (element of deleteList) {
 }
 
 
-
+//the first total
 let totProd1 = parseInt(document.querySelector("#totalProd1").textContent)
 let totProd2 = parseInt(document.querySelector("#totalProd2").textContent)
 let totProd3 = parseInt(document.querySelector("#totalProd3").textContent)
 let totalBag = parseInt(document.querySelector("#totalBag").textContent)
-console.log(totalBag)
 let total = document.querySelector("#totalBag").textContent = totProd1 + totProd2 + totProd3
-console.log(total)
 
 //change sum of product with plus_button
 
